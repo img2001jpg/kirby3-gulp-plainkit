@@ -1,0 +1,50 @@
+# node modules
+# ------------
+
+/node_modules
+
+# Kirby Settings
+# ------------
+
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/dist/media/*
+!/dist/media/index.html
+
+# Keep Content on live server but not GitLab
+# ---------------
+
+/dist/content/*
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/dist/site/cache/*
+/dist!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/dist/site/accounts/*
+!/dist/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/dist/site/sessions/*
+!/dist/site/sessions/index.html
+
+# License
+# ---------------
+/dist/site/config/.license

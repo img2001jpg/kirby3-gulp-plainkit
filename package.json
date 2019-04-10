@@ -1,0 +1,33 @@
+{
+  "name": "kirby3-gulp-plainkit",
+  "version": "1.0.0",
+  "description": "1. Run `npm install` to install all node modules 2. Local server `gulp serve` 3. `gulp scripts` or `gulp sass` for JS/SCSS",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.1.7",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/img2001jpg/kirby3-gulp-plainkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/img2001jpg/kirby3-gulp-plainkit/issues"
+  },
+  "homepage": "https://github.com/img2001jpg/kirby3-gulp-plainkit#readme"
+}
